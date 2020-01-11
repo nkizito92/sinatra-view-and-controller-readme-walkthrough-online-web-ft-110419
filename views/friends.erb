@@ -9,7 +9,9 @@
   <body>
     <h1>My Super Cool Friends List</h1>
 
-    <%=  @friends.each {|friend|}%>
+    <%  @friends.each do |friend|%>
+    <h1><%friend%></h1>
+    <% end %> 
 
   </body>
 </html>
